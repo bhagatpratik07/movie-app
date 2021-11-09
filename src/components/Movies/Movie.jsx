@@ -2,12 +2,12 @@ import React from "react";
 import MovieGenre from "../MovieRow/MovieGenre";
 import MovieRow from "../MovieRow/MovieRow";
 import { requests } from "../paths";
-import Header from "../Header/Header.js";
+// import Header from "../Header/Header.js";
 
 export default function Movie() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <MovieRow title={"Trending Movies"} route={requests.trendingMovies} />
       <MovieRow title={"Upcoming Movies"} route={requests.upcomingMovies} />
       <MovieRow title={"Popular Movies"} route={requests.popularMovies} />
