@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.images {
+  margin-left: 40px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.title {
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.images:hover {
+  transform: scale(1.06);
+}
