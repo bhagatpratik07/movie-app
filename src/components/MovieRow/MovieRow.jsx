@@ -7,7 +7,7 @@ export default function MovieRow({ title, route }) {
 
   useEffect(() => {
     fetch(
-      `https://api.themoviedb.org/3${route}?api_key=${process.env.REACT_APP_API_KEY}`
+      `https://api.themoviedb.org/3${route}?api_key=8ff089a151d77dec860addce9ea143dd`
     )
       .then((res) => res.json())
       .then((data) => {
