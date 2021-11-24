@@ -19,7 +19,7 @@ export default function MovieInfo({ match }) {
   }, [match.params.id]);
   useEffect(() => {
     fetch(
-      `https://api.themoviedb.org/3/movie/${match.params.id}/videos?api_key=${process.env.REACT_APP_API_KEY}`
+      `https://api.themoviedb.org/3/movie/${match.params.id}/videos?api_key=8ff089a151d77dec860addce9ea143dd`
     )
       .then((res) => res.json())
       .then((data) => {
